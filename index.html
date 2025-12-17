@@ -4,34 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="porta.css">
-  <link rel="icon" href="icono.png" type="imagenes/x-png">
+  <link rel="icon" href="/imagenes/icono.png" type="imagenes/x-png">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <title>Cheft | Portafolio</title>
 </head>
 <body>
-
   <!-- Barra de busqueda principal para celular tablet y pc -->
 
-  <header class="barra_busqueda">
-      <input type="checkbox" id="barra--item1" class="barra-check">
-      <label class="material-symbols-outlined barra--item" id="barra--label" for="barra--item1">menu</label>
-      <div class="barra--img_container">
-        <img src="estu.jpg" alt="estudio de nixbox" class="barra--img">
-      </div>
-    <nav class="barra--nav">
-      <label class="material-symbols-outlined close-menu" for="barra--item1">close</label>
-      <ul class="barra--item2">
-        <li class="barra--item3">
-          <span class="material-symbols-outlined">co_present</span>
-          <a href="#">trabajos</a>
-        </li>
-        <li class="barra--item3">
-          <span class="material-symbols-outlined">Home</span>
+  <header class="barra_busqueda" id="barra_busqueda">
+    <input type="checkbox" class="check" id="check">
+    <label for="check" class="material-symbols-outlined barra-label" id="barra-label" role="button">menu</label>
+    <img src="/imagenes/estu.jpg" alt="imagen de mi estudio" class="barra-img">
+    <nav class="barra-nav" id="barra-nav">
+      <label for="check" class="material-symbols-outlined barra_cerrar" id="barra_cerrar">close</label>
+      <ul class="barra-list">
+        <li class="barra-list2">
+          <span class="material-symbols-outlined">computer</span>
           <a href="#">proyectos</a>
         </li>
-        <li class="barra--item3">
+        <li class="barra-list2 barra-ani-es">
+          <span class="material-symbols-outlined">home</span>
+          <a href="#">inicio</a>
+        <li class="barra-list2">
           <span class="material-symbols-outlined">mms</span>
-          <a href="#">imagens</a>
+          <a href="#">imagenes</a>
+        </li>
         </li>
       </ul>
     </nav>
@@ -42,19 +39,27 @@
   <main class="centro">
     <div class="centro-item">
       <span class="centro--container-img">
-        <img src="icono.png" alt="perfil de dc icono" class="centro-img">
+        <img src="/imagenes/icono.png" alt="perfil de dc icono" class="centro-img">
       </span>
       <div class="centro-item centro--item2">
-      <h1>¿COMO EMPEZE?</h1>
+      <h1 class="princi">¿COMO EMPEZE?</h1>
       <div class="card">
       <div class="card--item">
-        <h2>Historia</h2>
-        <p>Empeze como un simple administrador de un servido de alternos,de hay me gusto crear mi propia network.</p>
+        <h2 class="titu">Historia</h2>
+        <p class="card--item">Empeze como un simple administrador de un servido de alternos,de hay me gusto crear mi propia network.</p>
+        <p class="card--item">y un estudio de grandes proyectos y escala tanto de hacer una academia y un hosting para crecer y ayudar ala gente.</p>
       </div>
       </div>
       <div class="card2">
       <div class="card--item2">
-        <p>E.</p>
+        <p class="card--item2">En esa epoca para ser mas exactos en 2018, empeze con la creacion de servidores no profecinales en alternos teniendo muy poca gente al principio.</p>
+        <p class="card--item2">Desde hay segui aprendiendo y creciendo como programador principal mente enfocado en boxpvp, y demas modalidades.</p>
+      </div>
+      </div>
+      <div class="card3">
+      <div class="card--item3">
+        <p class="card--item3">Actualmente soy un developer profecional con <strong>8 años de experiencia</strong> y creador de <strong>bots, plugins y paginas web</strong>.</p>
+        <p class="card--item3">Desde hay segui aprendiendo y creciendo como programador principal mente enfocado en boxpvp, y demas modalidades.</p>
       </div>
       </div>
     </div>
@@ -64,6 +69,8 @@
 
   <footer></footer>
 </body>
-
+<!--<audio autoplay loop>-->
+<!--  <source src="mani.mp3" type="audio/mpeg">-->
+<!--</audio>-->
+<script src="port.js"></script>
 </html>
-
